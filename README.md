@@ -1,16 +1,21 @@
-## Hi there 👋
-
-<!--
-**guruchapy/guruchapy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```py
+class Gurucharan:
+  
+  def __init__(self):
+    
+    self.info = {
+      "tele" : "Nope", 
+      "Coding" : "Python / Web Dev ( Not much )",
+      "Group" : "Comet",
+      "Server" : "Nope",
+    }
+    
+    self.who()
+  
+  def who(self):
+    
+    print(f'My tele is {self.info["tele"]} , I know {self.info["Coding"]}! As well my group is {self.info["Group"]}, my discord server aswell is {self.info["Server"]}')
+if __name__ == "__main__":
+  Gurucharan()
+ 
+```
